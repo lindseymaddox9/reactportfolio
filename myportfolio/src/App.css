@@ -1,42 +1,55 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  max-width: 100%;
+  color: rgb(251, 252, 255);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color:rgb(124, 18, 223) 
+}
+.main-menu{
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+.main-menu li{
+  margin: 15px;
+  background-color: hsl(300, 43%, 99%);
+}
+.h2.main.name{
+  color: aquamarine;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 50px;
+}
+.footer{
+   text-align:center;
+   height: 150px;
+}
+.h2{
+  text-align:center;
+  background-color:
+  height: 150px;
+}
+.h1{
+  text-align:left;
+  background-color:
+  height: 150px;
+.a{
+  color:rgb(124, 18, 223)
+  height: 50px;
+}
+
+
+
+/* .btn {
+  border: none;
+  background-color: rgb(251, 252, 255);
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
+    0px;
+  color: hsl(57, 96%, 39%);
+  display: inline-block;
+  font-size: 22px;
+  line-height: 22px;
+  margin: 16px 16px 16px 20px;
+  padding: 14px 34px;
   text-align: center;
-}
-
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.react:hover {
-  filter: drop-shadow(0 0 2em #61dafbaa);
-}
-
-@keyframes logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  a:nth-of-type(2) .logo {
-    animation: logo-spin infinite 20s linear;
-  }
-}
-
-.card {
-  padding: 2em;
-}
-
-.read-the-docs {
-  color: #888;
-}
+  cursor: pointer;
+} */
