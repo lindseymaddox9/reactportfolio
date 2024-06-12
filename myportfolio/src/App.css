@@ -2,39 +2,69 @@
   max-width: 100%;
   color: rgb(251, 252, 255);
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background-color:rgb(124, 18, 223) 
+  background-color:rgb(124, 18, 223);
+  height:100%;
 }
 .main-menu{
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+
 }
 .main-menu li{
-  margin: 15px;
-  background-color: hsl(300, 43%, 99%);
-}
-.h2.main.name{
-  color: aquamarine;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 50px;
+  margin: 45px;
+  background-color: rgb(124, 18, 223)
 }
 .footer{
    text-align:center;
    height: 150px;
 }
-.h2{
-  text-align:center;
-  background-color:
-  height: 150px;
+a{
+  color:rgb(29, 1, 38);
+  font-size: 30px;
 }
-.h1{
-  text-align:left;
-  background-color:
-  height: 150px;
-.a{
-  color:rgb(124, 18, 223)
-  height: 50px;
+
+a:visited{
+  color: white;
+}
+
+.projects {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.project-card{
+  margin: 15px ;
+}
+.form {
+  margin: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+}
+
+.form input {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 100%;
+}
+
+textarea{
+  width: 100%;
+}
+/* .h2.main.name{
+  color: rgb(29, 1, 38);
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+} */
+/* .h2{
+  text-align:center;
+  background-color: 
 }
 
 
@@ -53,3 +83,7 @@
   text-align: center;
   cursor: pointer;
 } */
+/* .btn:hover {
+  border-color: #f6ee04;
+} */
+
