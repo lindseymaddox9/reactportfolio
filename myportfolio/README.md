@@ -1,5 +1,5 @@
 # reactportfolio
-portfolio of single page applications using react skills deployed usin netlify, vite,coolers, bootstrap, dotenv,axios
+portfolio of single page applications using react skills deployed usin netlify, vite, bootstrap, dotenv,axios
 
 GIVEN a single-page application portfolio for a web developer
 WHEN I load the portfolio
@@ -25,30 +25,9 @@ THEN I receive a notification if I have entered an invalid email address
 WHEN I am presented with the Resume section
 THEN I see a link to a downloadable resume and a list of the developer’s proficiencies
 WHEN I view the footer
-THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles, and their profile on a third platform (Stack Overflow, Twitter)
+THEN I am presented with text or icon links to the developer’s GitHub and LinkedIn profiles
 
 
-You’ll deploy this application to Netlify. Follow the instructions in the Git Guide or consult the [Docs on Netlify](https://vitejs.dev/guide/static-deploy.html#netlify) to create a build that you can deploy.
-
-
-![User clicks through About Me, Portfolio, Resume, and Contact sections on the webpage and enters information on Contact page.](./Assets/20-react-homework-demo-01.gif)
-
-
-* Use mobile-first design.
-* Ensure that the font size is large enough to read and that the colors don't cause eye strain.
-* Consider using animations and React component libraries. Note that this will not affect your grade, but it might impact how potential employers gauge your knowledge.
-
-  * Application must use React to render content.
-
-  * Application has a single `Header` component that appears on multiple pages, with a `Navigation` component within it that’s used to conditionally render About Me, Portfolio, Contact, and Resume sections.
-
-* A single `Navigation` component within the header that will use `Link` components from `react-router-dom` to conditionally render the different sections of your portfolio
-
-  * Application has a single `Project` component that’s used multiple times in the Portfolio section.
-
- 
-
-  * Application must be deployed to Netlify.
 
 Currently, two official plugins are available:
 
