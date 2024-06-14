@@ -33,3 +33,7 @@ Currently, two official plugins are available:
 
 - [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+link for snapshot: https://www.awesomescreenshot.com/video/28647899?key=28b3f2282556dbbfd700a2257132f0c1
+
+https://reactportfoliolindsey.netlify.app/
