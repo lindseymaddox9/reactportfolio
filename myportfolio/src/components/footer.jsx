@@ -9,7 +9,7 @@ function Footer() {
       <p>lindseymaddox9@gmail.com OR 806-663-1450</p>
       <ul className="icons">
         <li>
-          <Link to="/">Click here to return to Home page!</Link>
+          <Link to="/">Home Page</Link>
           <a href="https://github.com/">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/ae/Github-desktop-logo-symbol.svg/2048px-Github-desktop-logo-symbol.svg.png" />
           </a>

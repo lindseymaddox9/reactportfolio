@@ -5,7 +5,7 @@ function Portfolio(){
   const projects=[
     {
       title: "Social Media Startup",
-      description: "a social media app for friends",
+      description: "A Social Media App",
       image: "https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png",
       github: "https://github.com/lindseymaddox9/socialmediastartup",
       liveURL: "https://lindseymaddox9.github.io/socialmediastartup/"
@@ -19,14 +19,14 @@ function Portfolio(){
     },
     {
       title: "Weather App",
-      description: "weather app",
+      description: "It's a Weather App",
       image: "https://freepngimg.com/thumb/categories/2275.png",
       github: "http://github.com",
-      liveURL: "http://google.com"
+      liveURL: "https://lindseymaddox9.github.io/Weather/"
     },
     {
       title: "Text Editor",
-      description: "It's a text editor",
+      description: "It's a Text Editor",
       image: "https://kinsta.com/wp-content/uploads/2019/01/best-text-editors-1024x512.png",
       github: "https://github.com/lindseymaddox9/text-editor",
       liveURL: "http://google.com"
@@ -34,7 +34,7 @@ function Portfolio(){
   ]
     return(
         <section className="portfolio">
-        <h2>Portfolio</h2>
+        <h2>My Work Examples</h2>
         <div className="projects">
         {
           projects.map(project => {

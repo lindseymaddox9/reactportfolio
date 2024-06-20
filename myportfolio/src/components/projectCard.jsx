@@ -3,7 +3,7 @@
 function ProjectCard(props){
 return(
     <div className="project-card">
-        <div className="card" style={{width: "18rem"}}>
+        <div className="card" style={{width: "20rem", height:"30rem"}}>
   <img src={props.image} class="card-img-top" alt="..."/>
   <div className="card-body">
     <h5 className="card-title">{props.title}</h5>
