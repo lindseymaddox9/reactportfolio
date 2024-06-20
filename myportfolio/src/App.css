@@ -58,32 +58,9 @@ a:visited{
 textarea{
   width: 100%;
 }
-/* .h2.main.name{
-  color: rgb(29, 1, 38);
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-} */
-/* .h2{
-  text-align:center;
-  background-color: 
-}
-
-
-
-/* .btn {
-  border: none;
-  background-color: rgb(251, 252, 255);
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
-    0px;
-  color: hsl(57, 96%, 39%);
-  display: inline-block;
-  font-size: 22px;
-  line-height: 22px;
-  margin: 16px 16px 16px 20px;
-  padding: 14px 34px;
+img {
+  width: 5%;
+  height: 5%;
+  object-fit: contain;
   text-align: center;
-  cursor: pointer;
-} */
-/* .btn:hover {
-  border-color: #f6ee04;
-} */
-
+}

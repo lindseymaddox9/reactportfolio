@@ -4,16 +4,16 @@ import ProjectCard from "./projectCard"
 function Portfolio(){
   const projects=[
     {
-      title: "social media startup",
-      description: "social media app",
+      title: "Social Media Startup",
+      description: "a social media app for friends",
       image: "https://www.searchenginejournal.com/wp-content/uploads/2021/09/16-reasons-why-social-media-is-important-to-your-company-616d3200e6dc6-sej.png",
       github: "https://github.com/lindseymaddox9/socialmediastartup",
       liveURL: "https://lindseymaddox9.github.io/socialmediastartup/"
     },
     {
       title: "Blog",
-      description: " My Blog",
-      image: "https://images.pexels.com/photos/262508/pexels-photo-262508.jpeg?auto=compress&cs=tinysrgb&w=400",
+      description: "Midnight Magnolia",
+      image: "https://banner2.cleanpng.com/20180713/ske/kisspng-watercolor-painting-drawing-tattoo-watercolour-flo-jewell-5b48dcdfc130d0.8891896015315017917913.jpg",
       github: "https://github.com/lindseymaddox9/Blog",
       liveURL: "https://lindseymaddox9.github.io/Blog/"
     },
@@ -26,7 +26,7 @@ function Portfolio(){
     },
     {
       title: "Text Editor",
-      description: "it's a text editor",
+      description: "It's a text editor",
       image: "https://kinsta.com/wp-content/uploads/2019/01/best-text-editors-1024x512.png",
       github: "https://github.com/lindseymaddox9/text-editor",
       liveURL: "http://google.com"
