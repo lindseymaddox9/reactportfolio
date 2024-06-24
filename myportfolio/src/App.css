@@ -6,15 +6,19 @@
   background-color:rgb(124, 18, 223);
   max-height:100%;
   line-height: 1.8rem;
+
 }
 .main-menu{
   list-style-type: none;
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  
 }
 .main-menu li{
   background-color: rgb(124, 18, 223);
+  padding-right: 20px;
+
 }
 
 a{
@@ -99,8 +103,8 @@ h1.main-name{
  }
 
 .p{
-  height: 400px;
-  font-size: 20px;
+  height: 380px;
+  font-size: 15px;
   overflow-y:scroll;
 }
 h2 {
