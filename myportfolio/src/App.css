@@ -1,9 +1,11 @@
+
 #root {
   max-width: 100%;
   color: rgb(251, 252, 255);
   font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   background-color:rgb(124, 18, 223);
   max-height:100%;
+  line-height: 1.8rem;
 }
 .main-menu{
   list-style-type: none;
@@ -14,22 +16,15 @@
 .main-menu li{
   background-color: rgb(124, 18, 223);
 }
-.footer{
-   text-align:center;
-   height: 10px;
-   flex-grow: 0;
-   flex-shrink: 0;
-   flex-basis: auto;
-}
 
 a{
   font-size: 30px;
   padding-left: 20px;
+ 
 }
 
 a:visited{
   color: rgb(148, 59, 135);
-
 }
 
 .projects {
@@ -42,6 +37,7 @@ a:visited{
 .project-card{
   margin: 15px;
 }
+
 .form {
   margin: 20px;
   margin-left: auto;
@@ -61,6 +57,7 @@ a:visited{
 textarea{
   width: 100%;
 }
+
 img {
   width: 6%;
   display: block;
@@ -92,15 +89,19 @@ h1.main-name{
 
 .footer{
   background-color: rgb(29, 1, 38);
-  position: absolute;
+  position: relative;
+  z-index: 1;
   left: 0;
   bottom: 0;
-  height: 240px;
   width: 100%;
-}
+  text-align:center;
+  min-height: 20%;
+ }
+
 .p{
   height: 400px;
   font-size: 20px;
+  overflow-y:scroll;
 }
 h2 {
  text-align: center;
