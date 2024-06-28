@@ -6,6 +6,7 @@
   background-color:rgb(124, 18, 223);
   max-height:100%;
   line-height: 1.8rem;
+  text-align: left;
 
 }
 .main-menu{
@@ -108,6 +109,9 @@ h1.main-name{
   overflow-y:scroll;
 }
 h2 {
- text-align: center;
- font-size: 40px;
+ 
+ 
+ display:inline-block
+ 
+
 } 

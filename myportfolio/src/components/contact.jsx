@@ -1,8 +1,5 @@
 import { useState } from 'react';
 
-
-
-
 function Form() {
   // Create state variables for the fields in the form
   // also setting their initial values to an empty string

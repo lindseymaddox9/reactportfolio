@@ -38,4 +38,6 @@ link for snapshot: https://www.awesomescreenshot.com/video/28647899?key=28b3f228
 
 https://reactportfoliolindsey.netlify.app/
 
+Canva Cover Page: https://www.canva.com/design/DAGAw3LX4Cs/Fz05Exm6Bc3UmOa0XBAjIA/view?utm_content=DAGAw3LX4Cs&utm_campaign=designshare&utm_medium=link&utm_source=editor
+
 MIT in repo

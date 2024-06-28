@@ -1,5 +1,5 @@
 import Nav from "./nav"
-import resume from "./images/ex.pdf"
+import resume from "../assets/LindseyMaddoxResume2024WD.pdf";
 
 function Resume(){
     return(
